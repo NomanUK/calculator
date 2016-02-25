@@ -4,6 +4,7 @@ This Application is a simple calculator, coded in Objective-c. This is for iOS D
 
 ## Code Example
 
+``` sh
 typedef enum{ Plus,Minus,Multiply,Divide} CalcOperation;
 - These are the operations for the calculator, which makes the calculator for example the functions Plus, Minus, Multiply and Divide.
 
@@ -19,6 +20,7 @@ typedef enum{ Plus,Minus,Multiply,Divide} CalcOperation;
 - (IBAction) plusbutton;
 - (IBAction) equalsbutton;
 - (IBAction) clearDisplay;
+```
 
 Buttons that are the actions for the plus, multiple, numbers etc. These are the coding function for the buttons on this Simple Calculator.
 
